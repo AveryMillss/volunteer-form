@@ -13,25 +13,25 @@
 
   <section>
     <form method:"POST" action="https://formspree.io/vill0347@algonquinlive.com">
-      <div>
-        <h2>Personal details</h2>
-        <div>
+      <div class="grid">
+        <h2 class="unit">Personal details</h2>
+        <div class="unit">
           <label for="name">Full name</label>
           <input id="name" name="name" required>
           <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
 
-        <div>
+        <div class="unit">
           <label for="username">What should we call you?</label>
           <input id="username" name="username" required>
         </div>
 
-        <div>
+        <div class="unit">
           <label for="date">Date of birth</label>
           <input type="date" id="date" name="date" required>
         </div>
 
-        <div>
+        <div class="unit">
           <label for="t-shirt">T-shirt size</label>
           <select id="t-shirt" name="t-shirt">
             <option>Select a t-shirt size</option>
@@ -48,14 +48,33 @@
           </select>
         </div>
 
-        <div>
+        <div class="unit">
           <label for="email">Email</label>
           <input id="email" name="email" type="email" required>
         </div>
 
-        <div>
+        <div class="unit">
           <label for="number">Phone number <em>(optional)</em></label>
           <input id="number" name="number" type="tel" required>
+        </div>
+          <hr class="unit max-length">
+      </div>
+
+      <div class="grid">
+        <h2 class="unit">Address</h2>
+        <div class="unit">
+          <label for="address">Street address</label>
+          <input id="address" name="address" required>
+        </div>
+
+        <div class="unit">
+          <label for="city">City</label>
+          <input id="city" name="city" required>
+        </div>
+
+
+
+
 
 
 </body>
